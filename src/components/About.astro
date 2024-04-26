@@ -1,7 +1,35 @@
 ---
-import Section from "./Section.astro"
+import Section from "./Section.astro";
 ---
 
 <Section>
-  <h2>Hey, soy Juan Palma, Desarrollador Frontend con 2 años de experiencia </h2>
+  <div class="flex items-end gap-x-10">
+    <img
+      class="rounded-xl mb-3 w-24" 
+      src="/images/avatar.jpg" 
+      alt="avatar personal" 
+    />
+    <span class="text-2xl font-bold mb-2">Hey, soy Juan Palma</span>
+  </div>
+  <article class="text-center my-5">
+    Desarrollador Frontend con 2 años de experiencia laboral,
+    con un amplio repertorio de proyectos realizados en los cursos, proyectos personales y proyectos copiados de Youtube de los cuales mantengo el código en mi repositorio de GitHub, y solo algunos estan publicados en Netlify.
+  </article>
+
+  <article>
+    <h2 class="text-2xl mb-10">Mis Skills son:</h2>
+    <ol class="text-md grid grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-3 text-center">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JAVASCRIPT</li>
+      <li>JQUERY</li>
+      <li>REACTJS</li>
+      <li>ASTRO</li>
+      <li>TAILWIND</li>
+      <li>BOOTSTRAP</li>
+      <li>JSON</li>
+      <li>MYSQL</li>
+      <li>PHP</li>
+    </ol>
+  </article>
 </Section>
