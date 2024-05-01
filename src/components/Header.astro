@@ -1,18 +1,40 @@
+---
+
+---
+
 <header class="flex justify-between px-5 md:px-10 h-20 items-center gap-x-2 lg:gap-x-4">
-  <h1 class="text-xl md:text-2xl transition-all font-bold uppercase text-gray-700">
+  <h1 class="text-2xl transition-all ml-20 font-bold uppercase text-gray-700 text-center">
     Porfolio con astro
   </h1>
-  <ul class="flex gap-x-4 text-sm md:text-base transition-all">
+
+  <ul class="hidden md:flex gap-x-4 text-sm md:text-base transition-all-2">
     <li class="hover:scale-110">
-      <a href="#">Sobre mí</a>
+      <a href="#top">Sobre mí</a>
     </li>
 
     <li class="hover:scale-110">
-      <a href="#">Experiencia</a>
+      <a href="#experience">Experiencia</a>
     </li>
 
     <li class="hover:scale-110">
-      <a href="#">Contacto</a>
+      <a href="#projects">Proyectos</a>
+    </li>
+
+    <li class="hover:scale-110">
+      <a href="#contact">Contacto</a>
     </li>
   </ul>
+  
+  <img
+    id="menu"
+    class="w-10 hover:cursor-pointer md:hidden" 
+    src="./images/hamburguer.png" 
+    alt="icono de menú"
+    onclick="toggleMenu()"
+  >
+
 </header>
+
+<script>
+  
+</script>
