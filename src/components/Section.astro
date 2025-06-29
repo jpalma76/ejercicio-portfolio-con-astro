@@ -1,3 +1,11 @@
-<section class="max-w-[750px] mx-auto flex flex-col items-center px-24  xs:10px pt-12 mb-5">
+---
+interface Props {
+    id: string;
+}
+
+const { id } = Astro.props;
+---
+
+<section id={id} class="max-w-[750px] mx-auto flex flex-col items-center px-24  xs:10px pt-12 mb-5">
   <slot/>
 </section>
